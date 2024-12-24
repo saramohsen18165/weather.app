@@ -11,7 +11,7 @@ let btn=document.querySelector(".btn-input ")
 
 
  async function Data(value){
-let response = await fetch(`http://api.weatherapi.com/v1/forecast.json?key=2053b679bca9461db86223932241712&q=${value}&days=3`);
+let response = await fetch(`https://api.weatherapi.com/v1/forecast.json?key=2053b679bca9461db86223932241712&q=${value}&days=3`);
 let res = await response.json();
 
 // console.log(res);
